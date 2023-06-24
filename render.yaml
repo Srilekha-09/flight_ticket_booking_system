@@ -1,0 +1,7 @@
+env:
+  - name: NODE_ENV
+    value: production
+
+build:
+  - name: Install Dependencies
+    command: npm install express express-session express-validator
